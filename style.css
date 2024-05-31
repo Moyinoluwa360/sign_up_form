@@ -1,5 +1,33 @@
-#body{
-    display: flex;
-    flex-direction: column;
-    
+body{
+    margin: 0%;
 }
+#body{
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100lvw;
+}
+
+@font-face {
+    font-family: morse;
+    src: url(Norse-Bold\ \(1\).otf);
+}
+#sec{
+    background-image: url("sign_up_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 55lvw;
+    text-align: center;
+}
+#unique_span{
+    font-family: morse , sans-serif;
+    font-size: 200px;
+    color: white;
+}
+#logo{
+    margin-top: 150px;
+    border-radius: 50%;
+}
+Norse-Bold\ \(1\).otf
