@@ -18,7 +18,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    width: 55lvw;
+    width: 35lvw;
     text-align: center;
 }
 #unique_span{
@@ -30,4 +30,92 @@ body{
     margin-top: 150px;
     border-radius: 50%;
 }
-Norse-Bold\ \(1\).otf
+
+#formSec{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+#form_sec_head{
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+}
+#create_acc_logo{
+    border-radius: 50%;
+    background-color: beige;
+    width: 200px;
+    height: 200px;
+}
+#create_acc{
+    font-weight: bolder;
+    font-size: 60px;
+    color: black;
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    
+}
+.feild{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+}
+input:hover{
+    background-color: rgb(235, 234, 234);
+}
+input:focus{
+    outline: none;
+    border: 1px solid rgb(85, 233, 85) ;
+}
+input[type = "password"]:focus:invalid{
+    outline: none;
+    border: 1px solid rgb(233, 85, 85);
+}
+input[type = "password"]:focus:valid{
+    outline: none;
+    border: 1px solid rgb(85, 233, 85);
+}
+label{
+    font-weight: lighter;
+    font-weight: bolder;
+}
+legend{
+    font-size: 30px;
+    font-weight: bolder;
+}
+fieldset{
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-bottom: 40px;
+    width: 800px;
+    border: none;
+}
+button{
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    width: 150px;
+    height: 35px;
+    font-weight: bolder;
+}
+#form_sec_footer{
+    margin-left: 200px;
+    margin-top: 30px;
+}
+span{
+    color: grey;
+    font-weight: bolder;
+    font-size: 20px;
+}

@@ -18,37 +18,53 @@
         </div>
         <div id="formSec">
             <div id="form_sec_head">
-                <img src="sign_up_2.jpg" alt="sign up logo" >
-                <span>Create an account</span>
+                <img src="sign_up_2.jpg" alt="sign up logo" id="create_acc_logo">
+                <span id="create_acc">Create an account</span>
             </div>
-            <div id="form_input_feild">
+            <div id="form_input_field">
                 <form action="post">
                     <fieldset>
                         <legend>Let's do this!</legend>
 
-                        <label for="first_name">FIRST NAME</label>
-                        <input type="text" id="first_name" placeholder="First Name">
+                        <div class="feild">
+                            <div class="inputs">
+                                <label for="last_name">LAST NAME</label>
+                                <input type="text" id="last_name" placeholder="Last Name" required>
+                            </div>
+                            <div class="inputs">
+                                <label for="first_name">FIRST NAME</label>
+                                <input type="text" id="first_name" placeholder="First Name" required>
+                            </div>
+                        </div>
 
-                        <label for="last_name">LAST NAME</label>
-                        <input type="text" id="last_name" placeholder="Last Name">
+                        <div class="feild">
+                            <div class="inputs">
+                                <label for="phone_number">PHONE NUMBER</label>
+                                <input type="number" id="phone_number" placeholder="091****6368" required>
+                            </div>
+                            <div class="inputs">
+                                <label for="email">EMAIL</label>
+                                <input type="email" id="email" placeholder="Email" required>
+                            </div>
+                        </div>
 
-                        <label for="email">EMAIL</label>
-                        <input type="email" id="email" placeholder="Email">
-
-                        <label for="phone_number">PHONE NUMBER</label>
-                        <input type="tel" id="phone_number" placeholder="091****6368">
-
-                        <label for="password">PASSWORD</label>
-                        <input type="password" id="password" placeholder="********">
-
-                        <label for="confirm_password">CONFIRM PASSWORD</label>
-                        <input type="password" id="confirm_password" placeholder="********">
+                        <div class="feild">
+                            <div class="inputs">
+                                <label for="password">PASSWORD</label>
+                                <input type="password" id="password" placeholder="********" minlength="8" maxlength="16" required>
+                            </div>
+                            <div class="inputs">
+                                <label for="confirm_password">CONFIRM PASSWORD</label>
+                                <input type="password" id="confirm_password" placeholder="********" minlength="8" maxlength="16" required>
+                            </div>
+                        </div>
                     </fieldset>
                 </form>
             </div>
+            
             <div id="form_sec_footer">
                 <button>Create Account</button>
-                <p>Already have an account? <span>Log in</span> </p>
+                <p>Already have an account? <span id="log_in">Log in</span> </p>
             </div>
         </div>
     </div>
